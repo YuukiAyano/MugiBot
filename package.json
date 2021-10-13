@@ -1,0 +1,27 @@
+{
+    "name": "mugibot",
+    "version": "1.0.0",
+    "description": "Ito's Place Bot",
+    "main": "bot.js",
+    "scripts": {
+        "test": "node deploy-commands.js && nodemon bot.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/YuukiAyano/MugiBot.git"
+    },
+    "keywords": [
+        "MugiBot"
+    ],
+    "author": "友人Ｓ",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/YuukiAyano/MugiBot/issues"
+    },
+    "homepage": "https://github.com/YuukiAyano/MugiBot#readme",
+    "dependencies": {
+        "discord.js": "^13.2.0",
+        "dotenv": "^10.0.0",
+        "mysql": "^2.18.1"
+    }
+}
